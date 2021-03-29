@@ -20,6 +20,8 @@ def main():
 		print(elem[0], elem[1])
 	if 'age' in stu:
 		stu['age'] = 20
+
+    # dic.setdefault(keyname, value) 指定键返回项目的值。如果键不存在，插入这个具有指定值的键	
 	print(stu)
 	stu.setdefault('score', 60)
 	print(stu)

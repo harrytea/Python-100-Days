@@ -12,8 +12,12 @@ python hello.py
 
 """
 
+#print中的单引号和双引号并无区分
+
 print('hello, world!')
 # print("你好,世界！")
 print('你好', '世界')
 print('hello', 'world', sep=', ', end='!')
 print('goodbye, world', end='!\n')
+
+

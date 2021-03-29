@@ -27,7 +27,7 @@ print(f1(c=2, b=3, a=1))
 # 可变参数
 def f2(*args):
 	sum = 0
-	for num in args:
+	for num in args: # args是一个tuple
 		sum += num
 	return sum
 

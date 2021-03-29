@@ -212,7 +212,7 @@ PyCharm的安装、配置和使用我们在后面会进行介绍。
 1. 在Python交互环境中下面的代码查看结果并将内容翻译成中文。
 
     ```Python
-    import this
+    import this #只运行本行即可
 
     Beautiful is better than ugly.
     Explicit is better than implicit.
@@ -238,7 +238,7 @@ PyCharm的安装、配置和使用我们在后面会进行介绍。
 2. 学习使用turtle在屏幕上绘制图形。
 
     ```Python
-    import turtle
+    import turtle 
 
     turtle.pensize(4)
     turtle.pencolor('red')
@@ -249,5 +249,13 @@ PyCharm的安装、配置和使用我们在后面会进行介绍。
     turtle.forward(100)
     turtle.right(90)
     turtle.forward(100)
-    turtle.mainloop()
+    turtle.mainloop() #后面的语句不会执行，可以看做while True：
+    ```
+
+3. 获取帮助函数
+
+    ```python
+    #python环境下运行
+
+    print(func_name.__doc__)
     ```

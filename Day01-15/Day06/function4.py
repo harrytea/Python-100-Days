@@ -21,13 +21,19 @@ import time
 import shutil
 import os
 
-seconds = time.time()
+seconds = time.time()  # Python time time() 返回当前时间的时间戳1970纪元后经过的浮点秒数
+print()
 print(seconds)
+print()
 localtime = time.localtime(seconds)
 print(localtime)
+print()
 print(localtime.tm_year)
+print()
 print(localtime.tm_mon)
+print()
 print(localtime.tm_mday)
+print()
 asctime = time.asctime(localtime)
 print(asctime)
 strtime = time.strftime('%Y-%m-%d %H:%M:%S', localtime)

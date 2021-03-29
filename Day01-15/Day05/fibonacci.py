@@ -12,5 +12,6 @@ Date: 2018-03-02
 a = 0
 b = 1
 for _ in range(20):
-	(a, b) = (b, a + b)
-	print(a, end=' ')
+    (a, b) = (b, a + b)
+    print('a=%d b=%d' % (a, b))
+    print(a)

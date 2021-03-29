@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "E:\\anaconda1\\envs\\python\\python.exe",
+    "files.autoSave": "afterDelay",
+    "python.condaPath": "E:\\anaconda1\\envs",
+    "cSpell.words": [
+        "numpy",
+        "pyplot"
+    ],
+    "python.formatting.provider": "yapf"
+}

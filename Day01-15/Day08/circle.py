@@ -19,6 +19,7 @@ class Circle(object):
 	def __init__(self, radius):
 		self._radius = radius
 
+	# [property](https://www.liaoxuefeng.com/wiki/1016959663602400/1017502538658208)
 	@property
 	def radius(self):
 		return self._radius

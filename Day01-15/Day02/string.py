@@ -18,6 +18,6 @@ print('字符串是不是以hello开头: ', str1.startswith('hello'))
 print('字符串是不是以hello结尾: ', str1.endswith('hello'))
 print('字符串是不是以感叹号开头: ', str1.startswith('!'))
 print('字符串是不是一感叹号结尾: ', str1.endswith('!'))
-str2 = '- \u9a86\u660a'
-str3 = str1.title() + ' ' + str2.lower()
+str2 = '- \u9a86\u660a'  #unicode编码‘骆昊’
+str3 = str1.title() + ' ' + str2.lower()  #字符串变小写
 print(str3)
